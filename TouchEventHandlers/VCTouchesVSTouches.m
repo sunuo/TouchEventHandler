@@ -7,8 +7,9 @@
 //
 
 #import "VCTouchesVSTouches.h"
-
-@interface VCTouchesVSTouches ()
+#import "KVTouchView.h"
+#import "VWJump.h"
+@interface VCTouchesVSTouches ()<TouchViewDelegate,VWJumpDelegate>
 
 @end
 
@@ -16,12 +17,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    VWTouchJump* jump = [[VWTouchJump alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame),CGRectGetHeight(self.view.frame)/2)];
+    jump.delegate = self;
+    [jump setBackgroundColor:[UIColor redColor]];
+    [jump setAlpha:0.5];
+    
+    [self.view addSubview:jump];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)loadView
+{
+    self.view = [[KVTouchView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ((KVTouchView*)self.view).touchDelegate = self;
+}
+
+-(void)view:(id)sender touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    static BOOL color = YES;
+    [self.view setBackgroundColor:color?[UIColor lightGrayColor]:[UIColor whiteColor]];
+    color = !color;
+}
+
+-(void)view:(UIView *)sender didJump:(id)message
+{
+    S_ALERT(@"Jump", @"Jump");
 }
 
 /*

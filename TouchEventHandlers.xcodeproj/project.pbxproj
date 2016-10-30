@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7A483A1DC5A9500076531D /* VWJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A48391DC5A9500076531D /* VWJump.m */; };
+		0A7A483D1DC5AA860076531D /* KVTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A483B1DC5AA860076531D /* KVTouchView.m */; };
 		77AFB64B1DBE25780099AE3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB64A1DBE25780099AE3B /* main.m */; };
 		77AFB64E1DBE25790099AE3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB64D1DBE25790099AE3B /* AppDelegate.m */; };
 		77AFB6511DBE25790099AE3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6501DBE25790099AE3B /* ViewController.m */; };
@@ -15,7 +17,6 @@
 		77AFB6591DBE25790099AE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AFB6571DBE25790099AE3B /* LaunchScreen.storyboard */; };
 		77AFB6681DBE259B0099AE3B /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6631DBE259B0099AE3B /* NSString+Helper.m */; };
 		77AFB6691DBE259B0099AE3B /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6651DBE259B0099AE3B /* NSString+Regex.m */; };
-		77AFB66E1DBE26490099AE3B /* VCTouchesVSControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB66D1DBE26490099AE3B /* VCTouchesVSControl.m */; };
 		77AFB6711DBE265C0099AE3B /* VCTouchesVSGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6701DBE265C0099AE3B /* VCTouchesVSGestures.m */; };
 		77AFB6771DBE26840099AE3B /* VCGesturesVSControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6761DBE26840099AE3B /* VCGesturesVSControl.m */; };
 		77AFB67A1DBE290C0099AE3B /* VCTouchesVSTouches.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AFB6791DBE290C0099AE3B /* VCTouchesVSTouches.m */; };
@@ -24,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A7A48381DC5A9500076531D /* VWJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWJump.h; sourceTree = "<group>"; };
+		0A7A48391DC5A9500076531D /* VWJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWJump.m; sourceTree = "<group>"; };
+		0A7A483B1DC5AA860076531D /* KVTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTouchView.m; sourceTree = "<group>"; };
+		0A7A483C1DC5AA860076531D /* KVTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTouchView.h; sourceTree = "<group>"; };
 		77AFB6461DBE25780099AE3B /* TouchEventHandlers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchEventHandlers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AFB64A1DBE25780099AE3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77AFB64C1DBE25790099AE3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +44,6 @@
 		77AFB6631DBE259B0099AE3B /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 		77AFB6641DBE259B0099AE3B /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		77AFB6651DBE259B0099AE3B /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
-		77AFB66C1DBE26490099AE3B /* VCTouchesVSControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchesVSControl.h; sourceTree = "<group>"; };
-		77AFB66D1DBE26490099AE3B /* VCTouchesVSControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchesVSControl.m; sourceTree = "<group>"; };
 		77AFB66F1DBE265C0099AE3B /* VCTouchesVSGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchesVSGestures.h; sourceTree = "<group>"; };
 		77AFB6701DBE265C0099AE3B /* VCTouchesVSGestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchesVSGestures.m; sourceTree = "<group>"; };
 		77AFB6751DBE26840099AE3B /* VCGesturesVSControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCGesturesVSControl.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				77AFB6651DBE259B0099AE3B /* NSString+Regex.m */,
 				77AFB67E1DBE2E450099AE3B /* UIView+DrawText.h */,
 				77AFB67F1DBE2E450099AE3B /* UIView+DrawText.m */,
+				0A7A483C1DC5AA860076531D /* KVTouchView.h */,
+				0A7A483B1DC5AA860076531D /* KVTouchView.m */,
 				77AFB6811DBE2F5C0099AE3B /* VCBase.h */,
 				77AFB6821DBE2F5C0099AE3B /* VCBase.m */,
 			);
@@ -125,14 +130,14 @@
 		77AFB66B1DBE261A0099AE3B /* Conflicts */ = {
 			isa = PBXGroup;
 			children = (
-				77AFB66C1DBE26490099AE3B /* VCTouchesVSControl.h */,
-				77AFB66D1DBE26490099AE3B /* VCTouchesVSControl.m */,
 				77AFB66F1DBE265C0099AE3B /* VCTouchesVSGestures.h */,
 				77AFB6701DBE265C0099AE3B /* VCTouchesVSGestures.m */,
 				77AFB6751DBE26840099AE3B /* VCGesturesVSControl.h */,
 				77AFB6761DBE26840099AE3B /* VCGesturesVSControl.m */,
 				77AFB6781DBE290C0099AE3B /* VCTouchesVSTouches.h */,
 				77AFB6791DBE290C0099AE3B /* VCTouchesVSTouches.m */,
+				0A7A48381DC5A9500076531D /* VWJump.h */,
+				0A7A48391DC5A9500076531D /* VWJump.m */,
 			);
 			name = Conflicts;
 			sourceTree = "<group>";
@@ -212,9 +217,10 @@
 				77AFB67A1DBE290C0099AE3B /* VCTouchesVSTouches.m in Sources */,
 				77AFB6771DBE26840099AE3B /* VCGesturesVSControl.m in Sources */,
 				77AFB64E1DBE25790099AE3B /* AppDelegate.m in Sources */,
-				77AFB66E1DBE26490099AE3B /* VCTouchesVSControl.m in Sources */,
+				0A7A483A1DC5A9500076531D /* VWJump.m in Sources */,
 				77AFB6831DBE2F5C0099AE3B /* VCBase.m in Sources */,
 				77AFB6801DBE2E450099AE3B /* UIView+DrawText.m in Sources */,
+				0A7A483D1DC5AA860076531D /* KVTouchView.m in Sources */,
 				77AFB64B1DBE25780099AE3B /* main.m in Sources */,
 				77AFB6681DBE259B0099AE3B /* NSString+Helper.m in Sources */,
 				77AFB6711DBE265C0099AE3B /* VCTouchesVSGestures.m in Sources */,
@@ -280,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -318,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

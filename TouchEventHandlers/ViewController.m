@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "VCTouchesVSControl.h"
 #import "VCTouchesVSGestures.h"
 #import "VCGesturesVSControl.h"
 #import "VCTouchesVSTouches.h"
@@ -30,11 +29,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    ADD_CONTROLLER(@"Touches VS Control",[VCTouchesVSControl class]);
     ADD_CONTROLLER(@"Touches VS Gestures",[VCTouchesVSGestures class]);
     ADD_CONTROLLER(@"Gestures VS Control",[VCGesturesVSControl class]);
     ADD_CONTROLLER(@"Touches VS Touches",[VCTouchesVSTouches class]);
-
 }
 
 - (void)didReceiveMemoryWarning {

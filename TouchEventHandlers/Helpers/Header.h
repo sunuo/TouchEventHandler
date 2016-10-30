@@ -48,4 +48,10 @@ block();\
 return _##name;\
 }
 
+
+#define S_ALERT(TITLE,MESSAGE) UIAlertController* alert = [UIAlertController alertControllerWithTitle:TITLE message:MESSAGE preferredStyle:UIAlertControllerStyleAlert];\
+UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {}];\
+[alert addAction:defaultAction];\
+[self presentViewController:alert animated:YES completion:nil];
+
 #endif
